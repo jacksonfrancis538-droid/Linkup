@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "LINKUP",
+    "slug": "linkup-dating",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "linkup",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.linkup.dating"
+    },
+    "android": {
+      "package": "com.linkup.dating",
+      "adaptiveIcon": {
+        "backgroundColor": "#fff0f2"
+      }
+    },
+    "plugins": [
+      "expo-image-picker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
+      }
+    }
+  }
+}
